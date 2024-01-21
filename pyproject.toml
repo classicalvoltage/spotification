@@ -12,6 +12,7 @@ matplotlib = "^3.8.2"
 tqdm = "^4.66.1"
 spotipy = "^2.23.0"
 pandas = "^2.2.0"
+pyarrow = "^14.0.2"
 
 [tool.poetry.dev-dependencies]
 

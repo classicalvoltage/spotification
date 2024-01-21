@@ -192,6 +192,17 @@ typing = ["typing-extensions"]
 xmp = ["defusedxml"]
 
 [[package]]
+name = "pyarrow"
+version = "14.0.2"
+description = "Python library for Apache Arrow"
+category = "main"
+optional = false
+python-versions = ">=3.8"
+
+[package.dependencies]
+numpy = ">=1.16.6"
+
+[[package]]
 name = "pyparsing"
 version = "3.1.1"
 description = "pyparsing module - Classes and methods to define and execute parsing grammars"
@@ -337,7 +348,7 @@ zstd = ["zstandard (>=0.18.0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "506256ace42ec8b01fb08f29fa8e63817be5185799c6ee884cdf84aa3ee73959"
+content-hash = "8231385a2349c423723ab357912510167a7c1275a8b4be22468aa5d06c267197"
 
 [metadata.files]
 async-timeout = []
@@ -354,6 +365,7 @@ numpy = []
 packaging = []
 pandas = []
 pillow = []
+pyarrow = []
 pyparsing = []
 python-dateutil = []
 pytz = []
