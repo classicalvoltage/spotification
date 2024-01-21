@@ -11,6 +11,7 @@ SciPy = "^1.11.4"
 matplotlib = "^3.8.2"
 tqdm = "^4.66.1"
 spotipy = "^2.23.0"
+pandas = "^2.2.0"
 
 [tool.poetry.dev-dependencies]
 
