@@ -20,11 +20,8 @@ with open("/root/paths/volumes.json", "r") as fp:
 
 REPO_PATH = VOLUMES['volume1']
 
-"""
-
-"""
-
 SPOTIFY_CREDS_PATH = "/root/credentials/spotify.json"
 with open(SPOTIFY_CREDS_PATH, "r") as fp:
-    SPOTIFY_CLIENT_ID = json.load(fp)['client_id']
-    SPOTIFY_CLIENT_SECRET = json.load(fp)['client_secret']
+    creds = json.load(fp)
+    SPOTIFY_CLIENT_ID = creds['client_id']
+    SPOTIFY_CLIENT_SECRET = creds['client_secret']
